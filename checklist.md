@@ -21,13 +21,22 @@
     [x] Have enemy deal damage
     [x] Check for death
     
-[] Setup magic
-    [] Create magic file
-    [] Add magic class
-    [] Create some spells
-    [] Add spell damage method
-    [] Add healing method
-    [] Add reduce mana method
-    [] Create choice selection
-    [] Show mana totals
+[x] Setup magic
+    [x] Create magic file
+    [x] Add magic class
+    [x] Create some spells
+    [x] Add spell damage method
+    [x] Add healing method
+    [x] Add reduce mana method
+    [x] Create choice selection
+    [x] Show mana totals
+    
+[] Setup items
+    [] Create catches for incorrect numbers
+    [] Create inventory file
+    [] Add item class
+    [] Create some items
+    [] Create choose item method
+    [] Create replenish method
+    [] Create rejuvenate method
     

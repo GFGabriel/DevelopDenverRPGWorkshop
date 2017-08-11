@@ -67,3 +67,19 @@ class Person:
         for spell in self.magic:
             print('    ' + str(i) + '.', spell.name, '  (cost:', str(spell.cost) + ')')
             i += 1
+
+    def choose_item(self):
+        i = 1
+        print('Items:')
+        for item in self.items:
+            print('    '+str(i) + '.', item['item'].name + ':', item['item'].description, '(x' + str(item['quantity']) + ')')
+            i += 1
+
+    def replenish(self, mana):
+        self.mp += mana
+        if self.mp > self.maxmp:
+            self.mp = self.maxmp
+
+    def rejuvenate(self):
+        self.hp = self.maxhp
+        self.mp = self.maxmp
