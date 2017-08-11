@@ -1,6 +1,12 @@
-[] Create basic gamestate
-    [] Create main file
-    [] Create classes directory
-    [] Create init file in classes
-    [] Create mechanics file
-    [] Import mechanics file into main
+[x] Create basic gamestate
+    [x] Create main file
+    [x] Create classes directory
+    [x] Create init file in classes
+    [x] Create mechanics file
+    [x] Import mechanics file into main
+    
+[] Create Person
+    [] Add person class 
+    [] Import to main
+    [] Create main character
+    [] Create enemy character
