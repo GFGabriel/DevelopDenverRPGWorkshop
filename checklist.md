@@ -31,12 +31,18 @@
     [x] Create choice selection
     [x] Show mana totals
     
-[] Setup items
-    [] Create catches for incorrect numbers
-    [] Create inventory file
-    [] Add item class
-    [] Create some items
-    [] Create choose item method
-    [] Create replenish method
-    [] Create rejuvenate method
+[x] Setup items
+    [x] Create catches for incorrect numbers
+    [x] Create inventory file
+    [x] Add item class
+    [x] Create some items
+    [x] Create choose item method
+    [x] Create replenish method
+    [x] Create rejuvenate method
+    
+[] Misc 
+    [] Make health bars with ASCII 219
+    [] Make get status methods
+    [] Add multiple players
+    [] Next step: Enemy AI (closest, healer, damage, taunt?)
     
