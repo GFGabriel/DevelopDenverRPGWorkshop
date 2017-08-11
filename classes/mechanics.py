@@ -53,3 +53,17 @@ class Person:
         if self.hp < 0:
             self.hp = 0
         return self.hp
+
+    def heal(self, health_mod):
+        self.hp += health_mod
+        if self.hp > self.maxhp:
+            self.hp = self.maxhp
+
+    def reduce_mana(self, cost):
+        self.mp -= cost
+
+    def choose_spell(self):
+        i = 1
+        for spell in self.magic:
+            print('    ' + str(i) + '.', spell.name, '  (cost:', str(spell.cost) + ')')
+            i += 1

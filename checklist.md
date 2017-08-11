@@ -11,12 +11,23 @@
     [x] Create main character
     [x] Create enemy character
     
-[] Setup attack
-    [] Get health totals
+[x] Setup attack
+    [x] Get health totals
+    [x] Create choice selection
+    [x] Create crit chance
+    [x] Create generate damage method
+    [x] Create take damage method
+    [x] Have enemy take damage
+    [x] Have enemy deal damage
+    [x] Check for death
+    
+[] Setup magic
+    [] Create magic file
+    [] Add magic class
+    [] Create some spells
+    [] Add spell damage method
+    [] Add healing method
+    [] Add reduce mana method
     [] Create choice selection
-    [] Create crit chance
-    [] Create generate damage method
-    [] Create take damage method
-    [] Have enemy take damage
-    [] Have enemy deal damage
-    [] Check for death
+    [] Show mana totals
+    
