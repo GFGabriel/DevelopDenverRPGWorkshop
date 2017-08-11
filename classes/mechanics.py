@@ -1,4 +1,4 @@
-import math
+import math, random
 
 # https://godoc.org/github.com/whitedevops/colors
 
@@ -25,3 +25,31 @@ class Person:
         self.magic = magic
         self.items = items
         self.actions = ['Attack', 'Magic', 'Items']
+
+    def get_hp(self):
+        return self.hp
+
+    def get_maxhp(self):
+        return self.maxhp
+
+    def get_mp(self):
+        return self.mp
+
+    def get_maxmp(self):
+        return self.maxmp
+
+    def choose_action(self):
+        i = 1
+        print('\nActions:')
+        for item in self.actions:
+            print('    '+str(i)+'.', item)
+            i += 1
+
+    def generate_damage(self):
+        return random.randrange(self.atkl, self.atkh)
+
+    def take_damage(self, dmg):
+        self.hp -= dmg
+        if self.hp < 0:
+            self.hp = 0
+        return self.hp
